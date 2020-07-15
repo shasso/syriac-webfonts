@@ -1,0 +1,65 @@
+/* minimal required imports that will serve as default*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosanssyriaceastern.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanssyriacwestern.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanssyriacestrangela.css);
+/* @import url(http://shasso.github.io/sasfonts/earlyaccess/east_syriac_marcusregular.css);
+@import url(http://shasso.github.io/sasfonts/earlyaccess/estrangelo_marcusregular.css);
+@import url(http://shasso.github.io/sasfonts/earlyaccess/aaa-manuscript_marcusregular.css); */
+
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #989898;
+  font-family: 'Oxygen', sans-serif; 
+  text-align:justify;	
+  text-justify:kashida;	/* for some reason, this does not work */
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+/* minimal 'font-family' CSS property required */
+.ES {
+ font-family: 'east_syriac_marcusregular', 'Noto Sans Syriac Estrangela';
+ direction: rtl;
+ font-size: 2em;
+}
+.ESH {
+font-family: 'aaa-manuscript_marcusregular', 'Noto Sans Syriac Estrangela';
+ direction: rtl;
+ font-size: 2em;	
+}
+.WS {
+ font-family: 'Noto Sans Syriac Western', 'Noto Sans Syriac Estrangela', sans-serif;
+ direction: rtl;
+ font-size: 2em;
+}
+.EST {
+ font-family: 'estrangelo_marcusregular', 'Noto Sans Syriac Estrangela';
+ direction: rtl;
+ font-size: 2em;
+}
+.sys {
+	FONT-FAMILY: 'Estrangelo Midyat', 'Noto Sans Syriac Estrangela', sans-serif;
+	direction: rtl;
+	font-size: 120%;
+}
+.rtl {
+  text-align: right;
+  color: black;
+}
+.l2r {
+  text-align: left;
+  color: black;
+}
+.row p {
+	border: 2px solid orange;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+.PS {
+	font-size: 75%;
+	color: #fff;
+	font-style: italic;
+}
