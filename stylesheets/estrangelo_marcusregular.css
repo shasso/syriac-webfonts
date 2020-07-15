@@ -4,12 +4,12 @@
  */
 @font-face {
     font-family: 'estrangelo_marcusregular';
-    src: url('estrm_-webfont.eot');
-    src: url('estrm_-webfont.eot?#iefix') format('embedded-opentype'),
-         url('estrm_-webfont.woff2') format('woff2'),
-         url('estrm_-webfont.woff') format('woff'),
-         url('estrm_-webfont.ttf') format('truetype'),
-         url('estrm_-webfont.svg#estrangelo_marcusregular') format('svg');
+    src: url('../fonts/estrm_-webfont.eot');
+    src: url('../fonts/estrm_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/estrm_-webfont.woff2') format('woff2'),
+         url('../fonts/estrm_-webfont.woff') format('woff'),
+         url('../fonts/estrm_-webfont.ttf') format('truetype'),
+         url('../fonts/estrm_-webfont.svg#estrangelo_marcusregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
